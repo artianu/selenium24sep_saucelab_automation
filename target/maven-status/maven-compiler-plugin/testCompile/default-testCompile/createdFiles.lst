@@ -1,0 +1,15 @@
+com\SwagLabs\Utility\PropertyFileReadingUtility.class
+com\SwagLab\Pages\CheckoutOverviewPage.class
+com\SwagLabs\TestCases\ChekOutPageOverviewTestCases.class
+com\SwagLab\Pages\InventoryPage.class
+com\SwagLab\Pages\FinishPage.class
+com\SwagLabs\TestCases\FinishPageTestCase.class
+com\SwagLabs\TestCases\InventoryPageTestCase.class
+com\SwagLabs\TestCases\CartPageTestCase.class
+com\SwagLab\Pages\CartPage.class
+com\SwagLab\Pages\LoginPage.class
+com\SwagLabs\Utility\TakeScreenshotUtility.class
+com\SwagLabs\TestCases\CheckOutPageTestCases.class
+com\SwagLabs\TestCases\BaseClass.class
+com\SwagLabs\TestCases\LoginPageTestCases.class
+com\SwagLab\Pages\CheckOutPage.class

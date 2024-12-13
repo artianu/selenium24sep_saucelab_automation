@@ -18,6 +18,7 @@ public class BaseClass {
 	CheckOutPage cop;
 	FinishPage fp;
 	CheckoutOverviewPage coverp;
+	TakeScreenshotUtility ts=new TakeScreenshotUtility();
 	
 	@BeforeTest
 	public void setup()
