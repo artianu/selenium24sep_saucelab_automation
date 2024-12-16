@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="92.282" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="59.853" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\firod\AppData\Local\Temp\surefire4466332435468948925\surefirebooter-20241213110613792_3.jar C:\Users\firod\AppData\Local\Temp\surefire4466332435468948925 2024-12-13T11-06-13_538-jvmRun1 surefire-20241213110613792_1tmp surefire_0-20241213110613792_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\firod\AppData\Local\Temp\surefire3960663409256476423\surefirebooter-20241216095204211_3.jar C:\Users\firod\AppData\Local\Temp\surefire3960663409256476423 2024-12-16T09-52-03_886-jvmRun1 surefire-20241216095204211_1tmp surefire_0-20241216095204211_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\firod\eclipse-workspace\Sep24FrameWorkDesign\target\test-classes;C:\Users\firod\eclipse-workspace\Sep24FrameWorkDesign\target\classes;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\firod\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\firod\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\firod\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\firod\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\firod\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\firod\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\firod\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\firod\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\firod\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\firod\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\firod\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\firod\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\firod\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\firod\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\firod\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\firod\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\firod\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\firod\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\firod\AppData\Local\Temp\surefire4466332435468948925\surefirebooter-20241213110613792_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\firod\AppData\Local\Temp\surefire3960663409256476423\surefirebooter-20241216095204211_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -49,39 +49,39 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;c:\program files\Seqrite\HawkkAgent;C:\Program Files\Go\bin;C:\Program Files (x86)\dotnet\;C:\Users\firod\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\firod\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\firod\AppData\Local\Programs\Python\Python310\;C:\Users\firod\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;;C:\Users\firod\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\firod\go\bin;C:\Users\firod\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Java\jdk-17\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;c:\program files\Seqrite\HawkkAgent;C:\Program Files\Go\bin;C:\Program Files (x86)\dotnet\;C:\Users\firod\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\firod\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\firod\AppData\Local\Programs\Python\Python310\;C:\Users\firod\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;;C:\Users\firod\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\firod\go\bin;C:\Users\firod\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="validateURL" classname="com.SwagLabs.TestCases.LoginPageTestCases" time="0.056">
+  <testcase name="validateURL" classname="com.SwagLabs.TestCases.LoginPageTestCases" time="0.016">
     <system-out><![CDATA[Test Case Passed..ActURL is : https://www.saucedemo.com/v1/
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Dec 13, 2024 11:06:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dec 16, 2024 9:52:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
-  <testcase name="validateTitle" classname="com.SwagLabs.TestCases.LoginPageTestCases" time="0.467">
+  <testcase name="validateTitle" classname="com.SwagLabs.TestCases.LoginPageTestCases" time="0.009">
     <system-out><![CDATA[Test Case Passed..ActTitle is : Swag Labs
 ]]></system-out>
   </testcase>
-  <testcase name="validateLogin" classname="com.SwagLabs.TestCases.LoginPageTestCases" time="1.234">
+  <testcase name="validateLogin" classname="com.SwagLabs.TestCases.LoginPageTestCases" time="0.913">
     <system-out><![CDATA[Test Case Passed..Login Successful.. : https://www.saucedemo.com/v1/inventory.html
 ]]></system-out>
   </testcase>
-  <testcase name="Verifyproductcounttestcase" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.087">
+  <testcase name="Verifyproductcounttestcase" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.217">
     <system-out><![CDATA[Products count matched
 ]]></system-out>
-    <system-err><![CDATA[Dec 13, 2024 11:06:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Dec 16, 2024 9:52:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyProductName" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.186">
+  <testcase name="VerifyProductName" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.078">
     <system-out><![CDATA[Sauce Labs Backpack
 Sauce Labs Bike Light
 Sauce Labs Bolt T-Shirt
@@ -90,47 +90,47 @@ Sauce Labs Onesie
 Test.allTheThings() T-Shirt (Red)
 ]]></system-out>
   </testcase>
-  <testcase name="validateAddToCartPage" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.619">
+  <testcase name="validateAddToCartPage" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.293">
     <system-out><![CDATA[Product added to CartSauce Labs Fleece Jacket
 ]]></system-out>
   </testcase>
-  <testcase name="validateOpenCartPage" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.455"/>
-  <testcase name="ValidateRemovebutton" classname="com.SwagLabs.TestCases.CartPageTestCase" time="0.244">
+  <testcase name="validateOpenCartPage" classname="com.SwagLabs.TestCases.InventoryPageTestCase" time="0.162"/>
+  <testcase name="ValidateRemovebutton" classname="com.SwagLabs.TestCases.CartPageTestCase" time="0.097">
     <system-out><![CDATA[Product added to CartSauce Labs Fleece Jacket
 Product to be Removed: Sauce Labs Fleece Jacket
 Product removed Successfully: Sauce Labs Fleece Jacket
 ]]></system-out>
-    <system-err><![CDATA[Dec 13, 2024 11:06:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Dec 16, 2024 9:52:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
-  <testcase name="ValidateContinueShopping" classname="com.SwagLabs.TestCases.CartPageTestCase" time="0.945">
+  <testcase name="ValidateContinueShopping" classname="com.SwagLabs.TestCases.CartPageTestCase" time="0.587">
     <system-out><![CDATA[Product added to CartSauce Labs Bolt T-Shirt
 ]]></system-out>
   </testcase>
-  <testcase name="ValidateCheckout" classname="com.SwagLabs.TestCases.CartPageTestCase" time="0.268"/>
-  <testcase name="AddCustDetails" classname="com.SwagLabs.TestCases.CheckOutPageTestCases" time="3.346">
+  <testcase name="ValidateCheckout" classname="com.SwagLabs.TestCases.CartPageTestCase" time="0.195"/>
+  <testcase name="AddCustDetails" classname="com.SwagLabs.TestCases.CheckOutPageTestCases" time="3.234">
     <system-out><![CDATA[Product added to CartSauce Labs Fleece Jacket
 Details Entered successfuly
 ]]></system-out>
-    <system-err><![CDATA[Dec 13, 2024 11:06:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Dec 16, 2024 9:52:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
-  <testcase name="VerifyContinueCheckOut" classname="com.SwagLabs.TestCases.CheckOutPageTestCases" time="0.357"/>
-  <testcase name="validateProductnameoncheckout" classname="com.SwagLabs.TestCases.ChekOutPageOverviewTestCases" time="0.03">
+  <testcase name="VerifyContinueCheckOut" classname="com.SwagLabs.TestCases.CheckOutPageTestCases" time="0.282"/>
+  <testcase name="validateProductnameoncheckout" classname="com.SwagLabs.TestCases.ChekOutPageOverviewTestCases" time="0.025">
     <system-out><![CDATA[Product added to CartSauce Labs Fleece Jacket
 Product Name on checkout matched, product selected is Sauce Labs Fleece Jacket
 ]]></system-out>
-    <system-err><![CDATA[Dec 13, 2024 11:07:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Dec 16, 2024 9:52:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
-  <testcase name="clickonFinishbtn" classname="com.SwagLabs.TestCases.ChekOutPageOverviewTestCases" time="0.417"/>
-  <testcase name="VerifyFinishButtonStatus1" classname="com.SwagLabs.TestCases.FinishPageTestCase" time="0.198">
+  <testcase name="clickonFinishbtn" classname="com.SwagLabs.TestCases.ChekOutPageOverviewTestCases" time="0.394"/>
+  <testcase name="VerifyFinishButtonStatus1" classname="com.SwagLabs.TestCases.FinishPageTestCase" time="0.157">
     <system-out><![CDATA[Product added to CartSauce Labs Fleece Jacket
 ]]></system-out>
-    <system-err><![CDATA[Dec 13, 2024 11:07:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Dec 16, 2024 9:52:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
 ]]></system-err>
   </testcase>
